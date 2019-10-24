@@ -4,6 +4,10 @@ import { View, KeyboardAvoidingView, Platform, Image, Text, TextInput, Touchable
 import logo from '../assets/logo.png';
 
 export default function Login(){
+function name(params) {
+    
+}
+
     return (
         <KeyboardAvoidingView enabled={Platform.OS === 'android' || Platform.OS === 'ios' } behavior="padding" style={styles.container}>
             <Image source={logo}/>
